@@ -1,0 +1,474 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   width: 100%;
+   background-image: linear-gradient(white,rgb(88, 88, 88),rgb(52, 74, 97));
+}
+
+.oga{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+ 
+}
+
+.bell{
+    margin-top: 2rem;
+    display: flex;
+     flex-flow:column wrap; 
+    justify-content: center; 
+}
+
+.bell h1{
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+   margin-bottom: -1rem;
+   padding-left: 4rem;
+   padding-right: 4rem;
+   padding-bottom: 3rem;
+   color: rgb(31, 48, 42);
+   
+}
+
+.bell h3{
+    font-size: 25.8px;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    color: rgb(65, 100, 100);
+    line-height: 1.4;
+   display: flex;
+   justify-content: center;
+}
+
+.boy img{
+    width: 100%;
+    height: auto;
+    filter:contrast(100rem);
+    filter: drop-shadow(100px);
+}
+
+.hug img {
+    width: 15rem;
+    height: 15rem;
+    margin-top: -8rem;
+    margin-bottom: 6rem;
+}
+
+.oga .like{
+    background-image:linear-gradient( rgb(47, 108, 158), rgb(36, 50, 63)) ;
+    
+}
+
+.like h2{
+    padding-bottom: 2rem;
+}
+
+.like .dog {
+    display: flex;
+    justify-content:center;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+
+.boil img{
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 6rem;
+    text-align: center;
+}
+
+.binka h1{
+    font-size: 50px;
+    color: rgb(31, 48, 42);
+}
+
+.binta h1{
+    font-size: 50px;
+    color: rgb(31, 48, 42);
+    
+}
+
+.bolu h1{
+    font-size: 50px;
+    color: rgb(31, 48, 42);
+}
+
+.binka h3{
+    font-size: 25.8px;
+    color: rgb(65, 100, 100);
+}
+
+.binta h3{
+    font-size: 25.8px;
+    color: rgb(65, 100, 100);
+}
+
+.bolu h3{
+    font-size: 25.8px;
+    color: rgb(65, 100, 100);
+}
+
+.oga .ogoh{
+    font-size: large;
+    background-color: rgb(58, 182, 182);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 2rem;
+    margin-left: 4.5rem;
+    margin-right: 4rem;
+    border-radius: 4rem;
+    border: 2px solid  rgb(58, 182, 182);
+    color: rgb(48, 74, 75);
+    margin-top: 2rem;
+    padding-left:1rem;
+    padding-right: 1rem;
+}
+
+.oga .chair{
+    font-size: large;
+    background-color:rgb(22, 100, 179);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 2rem;
+    margin-left: 4.5rem;
+    margin-right: 4rem;
+    border-radius: 4rem;
+    border: 2px solid  rgb(22, 100, 179);
+    color: rgb(48, 74, 75);
+}
+
+.header img{
+    width: 70px;
+    height: 30px;
+}
+.beach img{
+    margin-top: 4rem;
+    width: 30rem;
+    height: 25rem;
+    margin-bottom: auto;
+}
+
+.play img{
+    margin-top: 4rem;
+    width: 33rem;
+    height: 25rem;
+    margin-bottom: 6rem;
+}
+
+
+.head img{
+    margin-top: 6rem;
+    text-align: center;
+    
+}
+
+.oga .show{
+    font-size: large;
+    background-color: rgb(58, 182, 182);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 2rem;
+    margin-left: 4.5rem;
+    margin-right: 4rem;
+    border-radius: 4rem;
+    border: 2px solid  rgb(58, 182, 182);
+    color: rgb(48, 74, 75);
+    margin-top: 4rem;
+}
+
+.bayo img{
+    display: none;
+}
+
+
+
+@media screen and (min-width:1050px) {
+    
+
+    .hug img {
+        width: 8rem;
+        height: 8rem;
+        margin-top: -6rem;
+        margin-bottom: 3rem;
+    }
+    
+    .boy img{
+        display: none;
+    }
+
+    .bayo img{
+        display: block;
+        width: 100%;
+        height: auto;
+        filter:contrast(100rem);
+        filter: drop-shadow(100px);
+    }
+
+    .bell h1{
+        font-size: 25px;
+        width: 100%;
+        text-align: center;
+       margin-bottom: -2rem;
+       padding-left: 10rem;
+       padding-right: 10rem;
+       padding-bottom: 3rem;
+       color: rgb(31, 48, 42);
+       
+    }
+    
+    .bell h3{
+        font-size: 16px;
+        padding-left: 15rem;
+        padding-right: 15rem;
+        color: rgb(65, 100, 100);
+        line-height: 1.4;
+       display: flex;
+       justify-content: center;
+    }
+    
+    .oga .obo{
+       display: flex;
+       text-align: center;
+       width: 100%;
+       justify-content: center;
+       gap:0;
+    }
+    .oga .chair{
+        font-size: small;
+        background-color:rgb(22, 100, 179);
+        padding-top: -1.9rem;
+        padding-bottom: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-top: 3.3rem;
+        margin-bottom: 2rem;
+        margin-left: -3rem;
+        border-radius: 4rem;
+        border: 2px solid  rgb(22, 100, 179);
+        color: rgb(48, 74, 75);
+        text-align: center;
+    }
+
+    .oga .ogoh{
+        font-size: small;
+        background-color: rgb(58, 182, 182);
+        padding-bottom: 1rem;
+        margin-bottom: 2rem;
+       
+        border-radius: 4rem;
+        border: 2px solid  rgb(58, 182, 182);
+        color: rgb(48, 74, 75);
+        margin-top: 3.5rem;
+        padding-left:2rem;
+        padding-right: 2rem;
+    }
+ 
+     .oga .ada{
+        display: flex;
+        gap: -20rem;
+
+     }
+      
+     .beach img{
+        margin-left: -2rem;
+        height: 30rem;
+        width: 35rem;
+     }
+     .chief .bell{
+    
+        font-size: 2px;
+        text-align: left;
+        
+     }
+
+     .ada .bell{
+        font-size: 10px;
+        margin-top: 7rem;
+        margin-bottom: -6.2rem;
+        
+     }
+
+     .chief h1{
+        text-align: center;
+        margin-left: -6rem;
+        text-align: left;
+     }
+     
+     .head img{
+        text-align: center;
+     }
+    
+     .chief h3{
+        text-align: left;
+        left: 0;
+        margin-left: -11rem;
+        
+       
+     }
+
+    .otot h3{
+        margin-left: -11rem;
+        margin-right: 5rem;
+        text-align: left;
+        left: -2;
+    }
+   
+     .oga .chioma{
+        display: flex;
+        flex-wrap: row wrap;
+       margin-bottom: 4rem;
+       justify-content: center;
+       margin-left: -15rem;
+       gap: 1rem;
+     }
+      
+
+     .chioma .binta{
+       margin-left: -1rem;
+     }
+
+     .chioma .bolu{
+         margin-right: 3rem;
+     }        
+    .chioma .binka{
+      
+        margin-left: 1rem;
+     
+           
+    }
+
+    .binka h1{
+        color: rgb(31, 48, 42);
+        margin-bottom: 1rem;
+        font-size: 20px;
+        margin-left: 10rem;
+       
+    }
+
+    .bolu h1{
+        color: rgb(31, 48, 42);
+        margin-bottom: 0.5rem;
+        font-size: 20px;
+
+    }
+    .binta h1{
+        color: rgb(31, 48, 42);
+        margin-bottom: 1rem;
+        font-size: 20px;
+    }
+
+    .binta h3{
+        color: rgb(65, 100, 100);
+        line-height: 1.4;
+        font-size: 15px;
+    }
+
+    .bolu h3{
+        color: rgb(65, 100, 100);
+        line-height: 1.4;
+        font-size: 15px;
+    }
+
+    .binka h3{
+        color: rgb(65, 100, 100);
+        line-height: 1.4;
+        font-size:15px;
+        margin-left: 15rem;
+       
+    }
+    .head img{
+        width: 40px;
+        height:37px;
+        text-align: center;
+    }
+
+    .oga .sister{
+        display: flex;
+        justify-content: center;
+        gap:4rem;
+    }
+   
+    .header .img{
+        width:70px;
+        height: 40px;
+    }
+    
+    .binka img{
+        margin-left: 9rem;
+    }
+   
+   .oga .like{
+    display: flex;
+    justify-content: center;
+    margin-left: -6rem;
+    margin-top: -5rem;
+    bottom: 5rem;
+  
+   
+   }
+
+    .like .king{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        padding-top: -2rem;
+        margin-top: -8rem;
+        margin-left: 8rem;
+      
+    }
+     .king h2{
+        margin-left: 2rem;
+        margin-top: 12rem;
+        text-align: left;
+        font-size: 15px;
+        display: flex;
+     }
+
+     .work h2 {
+        display: flex;
+        flex-flow: row wrap;
+     }
+    
+    .king .okay{
+        margin-top: 11.5rem;
+
+    }
+
+    .okay img
+    {
+        width: 7vh;
+        height: 6vh;
+    }
+      
+    .like .dog{
+      margin-top: 8rem;
+      margin-right: 10rem;
+      margin-left: -21rem;
+  
+      padding-bottom: 0;
+    
+     
+    
+    }
+}
+
+@media (prefers-color-scheme:light) {
+    body{
+        width: 100%;
+        background-image: linear-gradient(white,rgb(129, 128, 72),rgb(224, 131, 55));
+     }
+    }
